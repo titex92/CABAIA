@@ -1,0 +1,105 @@
+/* con esta linea se quitan los espacios por defecto */
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+/* fondo del menu */
+nav { background-color: rgb(108, 108, 194);
+padding: 15px 50px;
+width: 100%;
+float: left;
+position: relative; 
+}
+
+/* flotar logo del menu */
+.log {float: left;}
+
+.nav {float: right;
+margin-top: 30px;}
+
+nav > ol li {list-style: none;}
+
+section{padding:200px 80px;
+width: 95%;
+margin:auto;
+background-color: bisque;
+height: auto; 
+}
+
+
+
+
+/* hacer flotar el menu */
+.nav > li {float: right;}
+
+/* estilo a las cajas del menu */ 
+
+.nav li a{color: aquamarine;
+background-color: rgb(64, 145, 145);
+text-decoration: none;
+padding: 10px 12px;
+width: 120px;
+display: block;
+text-align: center;}
+
+
+/* margen del menu */
+.nav > li {margin-left: 30px;}
+
+/* colocar color a cuadros del menu */ 
+.nav li a:hover{background-color: bisque;}
+
+
+/* esconder sub menu */
+.nav li ol{display: none;
+position: absolute;}
+
+.nav li:hover ol{display: block;}
+
+.nav li ol li{position: relative;}
+
+
+/* darle espacio para sub menu */ 
+.nav li ol li ol{right: -120px;
+top: 0px;}
+
+
+/* esconder sub menu */
+.nav li ol li ol{display: none;}
+
+.wp{position: fixed;
+        bottom: 10px;
+        right: 10px;}
+
+
+
+/* Aqui empiezo el pie de pagina */
+
+footer{background-color: black;
+        padding: 20px;}
+        
+        .redsocial{width: 50px;}
+        
+        .caja{background-color: rgb(67, 125, 159);
+        padding: 10px;
+        width: 50%;
+        height: 300px;
+        border: rgba(107, 165, 37, 0.587) solid 3px;
+        }
+        
+        .redes{float: left;}
+        
+        .mapa{float: right;}
+        
+        .imagenes{width: 10%;
+        float: left;
+        margin-top: 30px;}
+        
+        .nombres{float: left;
+        width: 60%;
+        font-size: 30px;
+        margin-top: 30px;}
+        
+        .margin{margin-top: 23px;}
+        
+        
+        
+        .clear{clear: both;}
